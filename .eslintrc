@@ -1,0 +1,12 @@
+{
+    "env": {
+        "browser": true
+    },
+    "extends": "airbnb-base",
+    "plugins": [
+        "import"
+    ],
+    "rules": {
+        "padded-blocks": 0
+    }
+}
