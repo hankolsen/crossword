@@ -4,11 +4,6 @@
 	box-sizing: border-box;
 }
 
-@font-face {
-	font-family: "kryss";
-	src: url(https://fonts.gstatic.com/s/handlee/v6/juOaTHBX9N7mCQYS68pw6QLUuEpTyoUstqEm5AMlJo4.woff2);
-}
-
 html {
 	font-family: sans-serif;
 	line-height: 1.15;
@@ -52,7 +47,7 @@ body {
 	font-size: 30px;
 	font-weight: bold;
 	text-transform: uppercase;
-	font-family: kryss;
+	font-family: 'Indie Flower', cursive;
 	padding-top: 7px;
 }
 
