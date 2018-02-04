@@ -49,11 +49,12 @@ body {
 	text-transform: uppercase;
 	font-family: 'Indie Flower', cursive;
 	padding-top: 7px;
+	border-radius: 0;	/* iOS adds rounded corners */
 }
 
 .crossword-board__item:active,
 .crossword-board__item:focus {
-	background: rgba(255, 255, 116, 0.5);
+	background: rgba(255, 255, 116, 0.7);
 	outline: none;
 }
 
@@ -68,7 +69,7 @@ body {
 	z-index: 50;
 }
 .crossword-board__item-highlight {
-	background: rgba(215, 255, 195, 0.4);
+	background: rgba(215, 255, 195, 0.6);
 	display: grid;
 	opacity: 0;
 	transition: opacity 0.3s linear;
